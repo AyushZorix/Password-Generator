@@ -32,8 +32,8 @@ const clipboard = useCallback(() => {
   }, [length, numberAllowed, charAllowed, pwgen])
 
   return (
-    <div className='w-full text-xl max-w-md mx-auto shadow-md rounded-lg px-4 py-6 my-8 text-orange-400 bg-gray-800'>
-      <h1 className='text-yellow-200 text-center mb-6'>Password Generator</h1>
+    <div className='mt-60 scale-140  w-full text-xl max-w-md mx-auto shadow-md rounded-lg px-4 py-6 my-8 text-orange-400 bg-gray-800'>
+      <h1 className='text-yellow-200 text-center mb-6 '>Password Generator</h1>
 
       <div className="flex shadow rounded-lg overflow-hidden mb-4">
         <input
