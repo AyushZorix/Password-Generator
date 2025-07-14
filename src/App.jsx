@@ -47,9 +47,7 @@ const clipboard = useCallback(() => {
         <button
           onClick={clipboard}
           className='bg-gray-700 text-white px-4 py-2 rounded-r-md hover:bg-gray-600 transition'
-        >
-          Copy
-        </button>
+        >Copy</button>
       </div>
 
       <div className='flex items-center gap-x-2 mb-2'>
@@ -87,9 +85,7 @@ const clipboard = useCallback(() => {
       <button
         onClick={pwgen}
         className='mt-4 w-full bg-orange-500 text-white py-2 rounded-md hover:bg-orange-600 transition'
-      >
-        Generate Password
-      </button> 
+      > Generate Password</button> 
     </div>
   )
 }
